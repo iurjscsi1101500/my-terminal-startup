@@ -3,5 +3,6 @@
 #include <unistd.h>
 
 int main() {
+	FILE *p = fopen("ascii.art", "r");
 	return 0;
 }
