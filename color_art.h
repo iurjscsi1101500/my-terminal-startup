@@ -1,6 +1,3 @@
-#ifndef COLOR_ART_H
-#define COLOR_ART_H
-
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -74,6 +71,3 @@ static void color_art_print(const char *art) {
     print_border(maxw);
     free(lines); free(buf);
 }
-
-#endif /* COLOR_ART_H */
-
